@@ -1,0 +1,36 @@
+.navbarr{
+    padding: 3vh;
+}
+
+.nav-logo{
+    display: flex;
+}
+.nav-logo img{
+    width: 12vh;
+}
+.nav-logo p{
+    color: #ffffff;
+    font-size: 3vh;
+}
+
+.nav-Hire-Me button{
+    width: 15.7vh;
+    height: 5.8vh;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius:7.5vh;
+    color: #515151;
+    font-size: 2vh;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+}
+
+  .nav-Hire-Me button:active{
+    background: #a391ff;
+  }
+  
+  .me-auto{
+    color: white;
+    font-weight: 500;
+}

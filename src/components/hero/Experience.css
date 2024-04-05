@@ -1,0 +1,21 @@
+.experience{
+    margin-top: 16vh;
+    padding: 2vh;
+    margin-bottom: 10vh;
+}
+.experience-item {
+    display: flex;
+    justify-content: center; 
+
+  }
+.experience-item h1{
+    color: white;
+    margin-right: 2vh;
+    font-weight: 700;
+    font-size: 7vh;
+}
+.experience-item p{
+    color: white;
+    font-weight: 700;
+margin-top: 1vh;
+}

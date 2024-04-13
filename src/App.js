@@ -5,12 +5,11 @@ import { Navbare } from './components/navbar/Navbar';
 import { Footer } from './components/Footer/Footer';
 function App() {
   return (
-    <div>       <BrowserRouter>
+    <div>      
+  <BrowserRouter>
     <div className='XD'>
    <Navbare />
-   <Routes>
-      <Route path='/' element={<Portfolio/>}/>
-   </Routes>
+      <Portfolio/>
    <Footer />
    </div>
 </BrowserRouter>

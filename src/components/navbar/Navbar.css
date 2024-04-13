@@ -14,8 +14,8 @@
 }
 
 .nav-Hire-Me button{
-    width: 15.7vh;
-    height: 5.8vh;
+    width: auto;
+    height: auto;
     outline: none;
     border: 1px solid #7a7a7a;
     border-radius:7.5vh;

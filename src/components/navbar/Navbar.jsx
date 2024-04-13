@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 export const Navbare = () => {
   return (
     <div style={{ background: 'linear-gradient(180deg, #18001a, #000000 60%)' }}> {/* Apply inline style */}
-
+{/* hi  */}
     <div className='navbarr ' >
  <Navbar  expand="sm" data-bs-theme="dark">
     <Container>
@@ -17,8 +17,14 @@ export const Navbare = () => {
       <div className='nav-logo '>
 
         <img className='me-4' src={logo} alt="logo"/>
-        <Navbar.Brand href="#home"> saad.derkaoui04@gmail.com </Navbar.Brand>
       </div>
+      </Col>
+      <Col>
+      <div className='nav-logo '>
+
+      <Navbar.Brand href="#home"><p>saad.derkaoui04@gmail.com </p> </Navbar.Brand>
+      </div>
+
       </Col>
       <Col >
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

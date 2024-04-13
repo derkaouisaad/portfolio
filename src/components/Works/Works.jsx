@@ -1,30 +1,13 @@
-import React, { useEffect } from 'react';
-import Swiper from 'swiper';
+import React from 'react';
 import 'swiper/css';
 import 'swiper/css/effect-cards'; // Import Swiper styles
+import Carousel from 'react-bootstrap/Carousel';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Project from "../Assets/Project.png";
 import Portf from "../Assets/portf.png";
 import './Works.css'; // Import your custom CSS file
 
 export const Works = () => {
-  useEffect(() => {
-    const swiper = new Swiper(".swiper", {
-      effect: "cards",
-      grabCursor: true,
-      initialSlide: 2,
-      speed: 500,
-      loop: true,
-      rotate: true,
-      mousewheel: {
-        invert: false,
-      },
-    });
-
-    return () => {
-      swiper.destroy();
-    };
-  }, []);
 
   return (
     <div id="Works">
@@ -45,25 +28,36 @@ export const Works = () => {
             <Button className="btn">Explore Projects</Button>
             </Col>
         <Col  xs={12} md={6} className="text-center">
-          <div className="swiper">
-            <div className="swiper-wrapper">
-              {/* Swiper slides */}
-              <div className="swiper-slide">
-                <img src={Project} alt="" className="swiper-image" />
-                <div className="overlay">
-                  <span>8.5</span>
-                  <h2>CRUD-ECOMMERCE</h2>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <img src={Portf} alt="" className="swiper-image" />
-                <div className="overlay">
-                  <span>9.5</span>
-                  <h2>PORTFOLIO PROJECT</h2>
-                </div>
-              </div>
-            </div>
+          
+        <Carousel data-bs-theme="dark">
+      <Carousel.Item>
+      <div className="carousel-image-wrapper">
+
+        <img
+          className="d-block w-100"
+          src={Project}
+          alt="First slide"
+        />
+                  </div>
+
+        <Carousel.Caption>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className="carousel-image-wrapper">
+        <img
+          className="d-block w-100"
+          src={Project}
+          alt="Second slide"
+        />
           </div>
+        <Carousel.Caption>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+
+    </Carousel>
         </Col>
         
       </Row>

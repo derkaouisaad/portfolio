@@ -9,11 +9,11 @@
 }
 .hero-left h1 {
     color: #ffffff;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 700;
 }
 .hero-left h2 {
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: 700;
     background: linear-gradient(180deg, #6d6a6da7, #ef94ff 60%);
     -webkit-background-clip: text ;
@@ -31,7 +31,6 @@
     align-items:center ;
     gap: 2vh;
 }
-
 
 .hero-latest-btn button{
     display: flex;
@@ -55,7 +54,7 @@
 }
 .hero-right img {
     margin-top: 10vh;
-    width: 55vh; /* Specify the desired width */
+    width: 50vh; /* Specify the desired width */
     height: auto; /* Maintain aspect ratio */
     border: solid rgb(73, 0, 157)  0.2vh;
     border-radius: 8vh;

@@ -9,7 +9,10 @@ function App() {
   <BrowserRouter>
     <div className='XD'>
    <Navbare />
-      <Portfolio/>
+   <Routes>
+      <Route path="/" element={<Portfolio/>} />
+      
+    </Routes>
    <Footer />
    </div>
 </BrowserRouter>
